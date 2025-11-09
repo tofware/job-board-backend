@@ -5,9 +5,9 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
-class Employer extends Model
+class Candidate extends Model
 {
-    /** @use HasFactory<\Database\Factories\EmployerFactory> */
+    /** @use HasFactory<\Database\Factories\CandidateFactory> */
     use HasFactory;
 
     public function user()

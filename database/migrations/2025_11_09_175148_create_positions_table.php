@@ -16,7 +16,7 @@ return new class extends Migration
             $table->unsignedBigInteger('employer_id');
             $table->unsignedBigInteger('category_id');
             $table->unsignedBigInteger('city_id');
-            $table->unsignedBigInteger('employment_type_id');
+            $table->unsignedBigInteger('employment_type');
             $table->string('title');
             $table->longText('description');
             $table->integer('salary_min');
